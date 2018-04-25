@@ -1,0 +1,44 @@
+Rep : bbow	Algo : nb	Epochs : 2	Acc : 0.84716
+Rep : bbow	Algo : lr	Epochs : 2	Acc : 0.85284
+Rep : bbow	Algo : svm	Epochs : 2	Acc : 0.84172
+Rep : bbow	Algo : ffnn	Epochs : 2	Acc : 0.87388
+Rep : ntf	Algo : nb	Epochs : 2	Acc : 0.84864
+Rep : ntf	Algo : lr	Epochs : 2	Acc : 0.87216
+Rep : ntf	Algo : svm	Epochs : 2	Acc : 0.60504
+Rep : ntf	Algo : ffnn	Epochs : 2	Acc : 0.87308
+Rep : tfidf	Algo : nb	Epochs : 2	Acc : 0.86424
+Rep : tfidf	Algo : lr	Epochs : 2	Acc : 0.88948
+Rep : tfidf	Algo : svm	Epochs : 2	Acc : 0.67972
+Rep : tfidf	Algo : ffnn	Epochs : 2	Acc : 0.87904
+Rep : wvavg	Algo : lr	Emb : glove	tfidf : False	Epochs : 2	Acc : 0.8038
+Rep : wvavg	Algo : lr	Emb : glove	tfidf : True	Epochs : 2	Acc : 0.78728
+Rep : wvavg	Algo : svm	Emb : glove	tfidf : False	Epochs : 2	Acc : 0.7846
+Rep : wvavg	Algo : svm	Emb : glove	tfidf : True	Epochs : 2	Acc : 0.77292
+Rep : wvavg	Algo : ffnn	Emb : glove	tfidf : False	Epochs : 2	Acc : 0.78056
+Rep : wvavg	Algo : ffnn	Emb : glove	tfidf : True	Epochs : 2	Acc : 0.78132
+Rep : wvavg	Algo : lr	Emb : w2v	tfidf : False	Epochs : 2	Acc : 0.79892
+Rep : wvavg	Algo : lr	Emb : w2v	tfidf : True	Epochs : 2	Acc : 0.79268
+Rep : wvavg	Algo : svm	Emb : w2v	tfidf : False	Epochs : 2	Acc : 0.68604
+Rep : wvavg	Algo : svm	Emb : w2v	tfidf : True	Epochs : 2	Acc : 0.71636
+Rep : wvavg	Algo : ffnn	Emb : w2v	tfidf : False	Epochs : 2	Acc : 0.79772
+Rep : wvavg	Algo : ffnn	Emb : w2v	tfidf : True	Epochs : 2	Acc : 0.7926
+Rep : wvavg	Algo : lr	Emb : gw2v	tfidf : False	Epochs : 2	Acc : 0.87888
+Rep : wvavg	Algo : lr	Emb : gw2v	tfidf : True	Epochs : 2	Acc : 0.87152
+Rep : wvavg	Algo : svm	Emb : gw2v	tfidf : False	Epochs : 2	Acc : 0.87672
+Rep : wvavg	Algo : svm	Emb : gw2v	tfidf : True	Epochs : 2	Acc : 0.87052
+Rep : wvavg	Algo : ffnn	Emb : gw2v	tfidf : False	Epochs : 2	Acc : 0.87344
+Rep : wvavg	Algo : ffnn	Emb : gw2v	tfidf : True	Epochs : 2	Acc : 0.86948
+Rep : paravec	Algo : lr	Emb_dim : 300	Epochs : 2	Acc : 0.8488
+Rep : paravec	Algo : svm	Emb_dim : 300	Epochs : 2	Acc : 0.8532
+Rep : paravec	Algo : ffnn	Emb_dim : 300	Epochs : 2	Acc : 0.84736
+Rep : sentvec	Algo : lr	Emb_dim : 300	Epochs : 2	Acc : 0.69264
+Rep : sentvec	Algo : svm	Emb_dim : 300	Epochs : 2	Acc : 0.56472
+Rep : sentvec	Algo : ffnn	Emb_dim : 300	Epochs : 2	Acc : 0.70348
+Algo : rnn	Emb : none	Seq Model : lstm		Batch Size : 32	Epochs : 2	Acc : 0.83216
+Algo : rnn	Emb : none	Seq Model : gru			Batch Size : 32	Epochs : 2	Acc : 0.86404
+Algo : rnn	Emb : glove	Seq Model : lstm		Batch Size : 32	Epochs : 2	Acc : 0.84454
+Algo : rnn	Emb : glove	Seq Model : gru			Batch Size : 32	Epochs : 2	Acc : 0.84228
+Algo : rnn	Emb : w2v	Seq Model : lstm		Batch Size : 32	Epochs : 2	Acc : 0.86476
+Algo : rnn	Emb : w2v	Seq Model : gru			Batch Size : 32	Epochs : 2	Acc : 0.85516
+Algo : rnn	Emb : gw2v	Seq Model : lstm		Batch Size : 32	Epochs : 5	Acc : 0.84736
+Algo : rnn	Emb : gw2v	Seq Model : gru			Batch Size : 32	Epochs : 2	Acc : 0.84728
